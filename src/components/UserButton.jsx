@@ -2,16 +2,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBagShopping, faUser } from "@fortawesome/free-solid-svg-icons";
 
-const UserButtons = () => {
+const userButtons = () => {
 
     return (
             <div>
 
-                <button>
+                <button className="px-2 text-white">
                     <FontAwesomeIcon icon={faBagShopping} />
-                    carrinho
                 </button>
-                <a>
+                <a className="px-2 text-white">
                     <FontAwesomeIcon icon={faUser} />
                 </a>
 
@@ -20,4 +19,4 @@ const UserButtons = () => {
 
 };
 
-export default UserButtons;
+export default userButtons;
