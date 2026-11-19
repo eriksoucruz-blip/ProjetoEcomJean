@@ -5,7 +5,7 @@ const ProductsContainer = () => {
   return (
     <section className="flex flex-wrap mx-auto justify-center p-2 gap-2">
       {catalog.map((product) => (
-        <ProductCard {...product} />
+        <ProductCard key={`product_${product.id}_key`} {...product} />
       ))}
     </section>
   );
