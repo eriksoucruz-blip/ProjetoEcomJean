@@ -9,9 +9,9 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route Path="" element={<Home />} />
-        <Route Path="/checkout" element={<Checkout />} />
-        <Route Path="/history" element={<PurchaseHistory />} />
+        <Route path="" element={<Home />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/history" element={<PurchaseHistory />} />
       </Routes>
     </>
   );
