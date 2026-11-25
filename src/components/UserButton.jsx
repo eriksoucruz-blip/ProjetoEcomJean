@@ -4,7 +4,9 @@ import { faBagShopping, faUser } from "@fortawesome/free-solid-svg-icons";
 const userButtons = () => {
   return (
     <div>
-      <button className="px-2 text-white relative">
+      <button
+        className="px-2 text-white relative"
+      >
         <FontAwesomeIcon icon={faBagShopping} />
         <div
           id="cart-amount"
